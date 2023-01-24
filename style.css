@@ -32,22 +32,22 @@ body{
 
 .sedan{
     background-color: hsl(31, 77%, 52%);
-    padding: 40px;
+    padding:60px 40px;
 }
 .suv{
     background-color: hsl(184, 100%, 22%);
-    padding: 40px;
+    padding: 60px 40px;
 }
 .luxury{
     background-color: hsl(179, 100%, 13%);
-    padding: 40px;
+    padding: 60px 40px;
 }
 
 button{
     border-radius: 19px;
     padding: 12px 24px;
     border:3px solid hsl(0, 0%, 95%) ;
-    margin-top: 80px;
+    margin-top: 120px;
     cursor: pointer;
 }
 .sedan button{
