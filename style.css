@@ -1,0 +1,140 @@
+
+/* font-family: 'Lexend Deca', sans-serif; */
+/* font-family: 'Big Shoulders Display', cursive; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1em;
+    font-family:'Lexend Deca', sans-serif; 
+    font-weight: 400;
+
+}
+
+.container{
+    max-width: 960px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 12px;
+    overflow: hidden;
+
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+}
+
+button{
+    border-radius: 19px;
+    padding: 12px 24px;
+    border:3px solid hsl(0, 0%, 95%) ;
+    margin-top: 80px;
+    cursor: pointer;
+}
+.sedan button{
+    background-color: hsl(0, 0%, 95%);
+    font-family:'Lexend Deca', sans-serif;  
+    font-weight: 400;
+    color:hsl(31, 77%, 52%);
+
+}
+.suv button{
+    background-color: hsl(0, 0%, 95%);
+    font-family:'Lexend Deca', sans-serif;  
+    font-weight: 400;
+    color:hsl(184, 100%, 22%);
+
+}
+.luxury button{
+    background-color: hsl(0, 0%, 95%);
+    font-family:'Lexend Deca', sans-serif;  
+    font-weight: 400;
+    color:hsl(179, 100%, 13%);
+
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    margin-top: 20px;
+    font-size: 2.1em;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6;
+    margin-top: 25px;
+}
+.sedan button:hover{
+    background-color:hsl(31, 77%, 52%) ;
+    color: hsl(0, 0%, 95%);
+
+
+}
+.suv button:hover{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    
+}
+.luxury button:hover{
+    background-color:hsl(179, 100%, 13%) ;
+    color: hsl(0, 0%, 95%);
+    
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+@media only screen and (max-width:1014px){
+   .container{
+    margin:3em;
+   }
+
+}
+
+@media only screen and (max-width:700px){
+    .container{
+        margin:3em;
+       }
+    
+
+}
+
+@media only screen and (max-width:375px){
+    .container{
+        margin:3em;
+        grid-template-columns: 1fr;
+       }
+    
+   
+}
+@media only screen and  (max-width:584px){
+    .container{
+        margin:3em;
+        grid-template-columns: 1fr;
+        
+       }
+  
+    
+    
+}
